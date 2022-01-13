@@ -43,7 +43,7 @@ class LoginForm extends Component {
     } else {
       const msg = data.error_msg
       this.setState({isFailure: true, msg})
-      console.log(data, 'hii')
+      console.log(data)
     }
   }
 
