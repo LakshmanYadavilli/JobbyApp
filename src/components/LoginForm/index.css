@@ -1,0 +1,20 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #272727;
+}
+form {
+  padding: 40px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #64748b;
+  color: #ffffff;
+}
+input {
+  padding: 5px;
+}

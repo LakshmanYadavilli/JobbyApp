@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #64748b;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn > button {
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+}
+.header > button {
+  width: 100px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 10px;
+}
